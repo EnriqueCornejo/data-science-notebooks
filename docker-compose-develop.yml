@@ -1,0 +1,9 @@
+jupyter:
+  image: jupyter/datascience-notebook
+  ports:
+    - "8888:8888"
+  container_name: datascience-notebook
+  command: start-notebook.sh --NotebookApp.token=''
+  volumes:
+    - ./work:/home/jovyan/work
+  
