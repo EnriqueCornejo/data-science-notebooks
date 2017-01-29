@@ -1,2 +1,4 @@
 gensim
+jupyter_kernel_gateway
+
 
